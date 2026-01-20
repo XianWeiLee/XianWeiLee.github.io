@@ -28,8 +28,8 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "PhD"
   location         : "Beijing"
-  employer         : "BUPT"
-  uri              : # URL
+  employer         : "BUPT"# https://english.bupt.edu.cn/
+  uri              : "https://english.bupt.edu.cn/"
   email            : "lixianwei@bupt.edu.cn" 
 
   # Academic websites
