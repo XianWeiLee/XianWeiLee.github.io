@@ -1,61 +1,47 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Xianwei Li",
+    "email": "lixianwei@bupt.edu.cn",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://xianweilee.github.io",
+    "summary": "Ph.D. candidate at BUPT. Computer vision, HDR imaging, and aesthetic assessment.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Beijing",
+      "countryCode": "CN",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
         "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "0009-0005-5049-4154",
+        "url": "https://orcid.org/0009-0005-5049-4154"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "XianWeiLee",
+        "url": "https://github.com/XianWeiLee"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Beijing University of Posts and Telecommunications",
+      "area": "Ph.D. in Computer Science and Technology",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "startDate": "2021-09",
+      "endDate": "2027-06",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Xidian University",
+      "area": "B.Eng. in Intelligence Science and Technology",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "startDate": "2017-09",
+      "endDate": "2021-06",
       "gpa": null,
       "courses": []
     }
@@ -66,32 +52,32 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "HDRMovieformer: A Transformer Framework and Benchmark for Cinematic SDR-to-HDR Conversion",
+      "publisher": "AAAI 2026",
+      "releaseDate": "2026-03-14",
+      "website": "https://doi.org/10.1609/aaai.v40i8.37578",
+      "summary": "A cinematic SDR-to-HDR transformer with HDRMovie7K/HDRMovie1K benchmarks."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "RMCNet: Reflection and Moiré Removal for Virtual Production",
+      "publisher": "ICASSP 2026",
+      "releaseDate": "2026-05-04",
+      "website": "https://doi.org/10.1109/ICASSP55912.2026.11460909",
+      "summary": "Joint screen reflection and moiré removal with the Screen Degradation Dataset."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Continuous Optical Zooming: A Benchmark for Arbitrary-Scale Image Super-Resolution in Real World",
+      "publisher": "CVPR 2024",
+      "releaseDate": "2024-06-17",
+      "website": "https://doi.org/10.1109/CVPR52733.2024.00293",
+      "summary": "A real-world arbitrary-scale SR benchmark collected by continuous optical zooming."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "RB-HDRDiff: Reducing Banding Artifacts for Temporally Consistent SDR-to-HDRTV Reconstruction via Diffusion Models",
+      "publisher": "PRCV 2026",
+      "releaseDate": "2026-08-01",
+      "website": "https://xianweilee.github.io/publication/2026-08-01-rb-hdrdiff",
+      "summary": "Diffusion-based SDRTV-to-HDRTV reconstruction with fewer banding artifacts and stronger temporal consistency."
     }
   ],
   "presentations": [

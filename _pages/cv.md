@@ -11,35 +11,18 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Computer Science and Technology, Beijing University of Posts and Telecommunications, 2021.09–2027.06 (expected)
+* B.Eng. in Intelligence Science and Technology, Xidian University, 2017.09–2021.06
 
-Work experience
+Research
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* National Key R&D Program: AI video enhancement for high-format cinema (2024.10–2026.10)
+  * Cinematic SDR-to-HDR conversion, HDRMovieformer, and a DaVinci Resolve plugin
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Computer vision: HDR conversion, image super-resolution, image restoration, aesthetic assessment
+* Python, PyTorch, OpenCV, Linux, C++, ONNX, OpenFX / DaVinci plugin development
 
 Publications
 ======
@@ -47,18 +30,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Service
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Session Chair, ICASSP 2026
+* Reviewer for CVPR, AAAI, IJCAI, and ECCV
