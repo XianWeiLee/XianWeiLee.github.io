@@ -25,10 +25,14 @@ author:
   # Biographic information
   avatar           : "personal.png"
   name             : "Xianwei Li"
+  name_zh          : "李贤伟"
   pronouns         : # example: "she/her"  
   bio              : "PhD"
+  bio_zh           : "博士研究生"
   location         : "Beijing"
+  location_zh      : "北京"
   employer         : "BUPT"# https://english.bupt.edu.cn/
+  employer_zh      : "北京邮电大学"
   uri              : # "https://english.bupt.edu.cn/"
   email            : "lixianwei@bupt.edu.cn" 
 
@@ -90,6 +94,7 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+    title_zh: '会议论文'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

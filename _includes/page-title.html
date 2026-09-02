@@ -1,0 +1,5 @@
+{% if page.title_zh %}
+  <span class="lang-en">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</span><span class="lang-zh">{{ page.title_zh | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+{% else %}
+  {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
+{% endif %}

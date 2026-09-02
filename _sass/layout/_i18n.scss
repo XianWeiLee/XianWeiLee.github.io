@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Language switcher
+   ========================================================================== */
+
+.lang-en,
+.lang-zh {
+  display: contents;
+}
+
+html:not([data-lang="zh"]) .lang-zh,
+html[data-lang="zh"] .lang-en {
+  display: none !important;
+}
+
+.lang-switch {
+  font-size: 0.82em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  user-select: none;
+
+  &__opt {
+    opacity: 0.42;
+    transition: opacity 0.15s ease;
+  }
+
+  &__sep {
+    opacity: 0.35;
+    padding: 0 0.15em;
+  }
+}
+
+html[data-lang="en"] .lang-switch__opt[data-set-lang="en"],
+html[data-lang="zh"] .lang-switch__opt[data-set-lang="zh"],
+html:not([data-lang]) .lang-switch__opt[data-set-lang="en"] {
+  opacity: 1;
+}

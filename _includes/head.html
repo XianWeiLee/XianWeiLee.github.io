@@ -10,6 +10,18 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  window.__setSiteLang = function (lang) {
+    document.documentElement.setAttribute('data-lang', lang);
+    document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+    try { localStorage.setItem('site-lang', lang); } catch (e) {}
+  };
+  (function () {
+    var stored = null;
+    try { stored = localStorage.getItem('site-lang'); } catch (e) {}
+    var lang = stored || (((navigator.language || navigator.userLanguage || '').toLowerCase().indexOf('zh') === 0) ? 'zh' : 'en');
+    document.documentElement.setAttribute('data-lang', lang);
+    document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+  })();
 </script>
 
 <!-- For all browsers -->

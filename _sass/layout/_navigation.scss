@@ -225,13 +225,25 @@
       }
     }
 
-    #theme-toggle {
+    .masthead__toolbar {
+      white-space: nowrap;
+
       a {
-        width: 25px;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        margin-left: 0.4rem;
+        margin-right: 0;
+
+        &:before {
+          display: none;
+        }
       }
+    }
+
+    #theme-toggle {
+      width: 25px;
+      justify-content: center;
+      cursor: pointer;
     }
 
     a {
