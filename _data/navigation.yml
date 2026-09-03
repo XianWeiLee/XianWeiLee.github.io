@@ -12,6 +12,10 @@ main:
     title_zh: "论文"
     url: /publications/
 
+  - title: "Notes"
+    title_zh: "笔记"
+    url: /notes/
+
   - title: "CV"
     title_zh: "简历"
     url: /cv/
